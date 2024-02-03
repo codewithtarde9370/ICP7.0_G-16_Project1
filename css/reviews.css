@@ -1,2 +1,53 @@
 /* review page styling
 */
+.review{
+    background-image: url("./../images/v7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 480px;
+  position: relative;
+  text-align:left;
+  top: 90px;
+} 
+.box {
+    background: #3f9cc1;
+    padding: 50px;
+    width: 40%;
+    height: 400px;
+    position: absolute;
+    top: -13%;
+    right: 10%;
+    padding-top: 10%;
+    color: white;
+  }
+  
+   h2{
+    left: 10%;
+    font-weight: 800;
+  }
+  .para{
+    margin-left: 10%;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 5px;
+  }
+ .review1 img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+h5 {
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 5px;
+  color: white;
+}
+.name{
+  margin: 10px;
+  margin-top: -60px;
+margin-left:80px;  
+
+}

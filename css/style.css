@@ -5,3 +5,38 @@ body {
     margin
 }
 */
+.title{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 30px;
+    padding :10px;
+    margin-top: -4px;
+    margin-left: 2px;
+}
+.header{
+    
+    background-color:rgb(11, 38, 92);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+} 
+a:link, a:visited{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: -5px;
+    display: block;
+text-decoration: none;
+
+}
+.icon{
+    padding: 25px 0;
+    
+}
+
+
+
+ 

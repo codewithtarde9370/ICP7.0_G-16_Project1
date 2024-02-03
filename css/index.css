@@ -1,2 +1,9 @@
 /* index page styling
 */
+h1{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 40px;
+    color:rgb(5, 20, 49) ;
+} 
+
