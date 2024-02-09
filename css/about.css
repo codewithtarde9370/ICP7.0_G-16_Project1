@@ -1,9 +1,26 @@
 /* about page styling
 */
+.videos{
+    background-color: black;
+}
 h1 {
     color: red;
 }
 .container{
+    height: 300px;
+        width: 760px;
+        background-color: aqua;
+        padding: 7px;
+        border-radius: 5px;
+        display: flex;
+}
+.videos{
+
+    background-color: blue;
+    padding: 7px;
+    margin: 10px 20px;
+}
+.container1{
     height: 300px;
     width: 760px;
     background-color: aqua;
@@ -17,5 +34,4 @@ h1 {
     margin: 10px;
     padding: 5px;
     border-radius: 10px;
-    
-}
+    }
