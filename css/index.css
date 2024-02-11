@@ -15,3 +15,7 @@ h1{
     margin-top: 200px;
 
 }
+.homepages a{
+    text-decoration: none;
+    color: white;
+}
