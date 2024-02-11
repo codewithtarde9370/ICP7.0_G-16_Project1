@@ -237,7 +237,7 @@ padding: -2px 0;
   margin:50px 0 200px 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .content1, .content2, .content3, .content4, .content5, .content6{
     display: flex;
     flex-wrap: wrap;
