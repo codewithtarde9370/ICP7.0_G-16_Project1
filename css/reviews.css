@@ -2,11 +2,11 @@
 */
 .box1 h5, .box2 h5, .box3 h5, .box4 h5, .box5 h5, .box6 h5{
   font-family: Verdana, Geneva, Tahoma, sans-serif; 
-  font-size: 12px;
+  font-size: 10px;
 }
  h5:hover{
   color:rgb(11, 38, 92) ;
-  font-size: 15px;
+  font-size: 11px;
 }
 .r1{
   margin:50px 0 200px 0;
@@ -241,5 +241,15 @@ padding: -2px 0;
   .content1, .content2, .content3, .content4, .content5, .content6{
     display: flex;
     flex-wrap: wrap;
+    height: auto;
+  }
+  .box1, .box2, .box3, .box4, .box5, .box6{
+  width:100%;
+  height: auto;
+  position: absolute;
+  text-overflow: hidden;
+  }
+  .para{
+    font-size: 15px;
   }
 }
