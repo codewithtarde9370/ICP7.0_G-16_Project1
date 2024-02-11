@@ -100,5 +100,23 @@ border-radius: 0 20px 20px 20px;
     display: flex;
     flex-wrap: wrap;
 }
+.connect-us-icons{
+    margin: 60px 0 -100px 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.connect-us-icons img{
+    height: 50px;
+    width: 50px;
+    padding: 0 20px;
+}
+.connect-us-icons img:hover{
+    height: 52px;
+    width: 52px;
+}
 
    
