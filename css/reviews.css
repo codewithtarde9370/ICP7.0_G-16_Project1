@@ -1,5 +1,13 @@
 /* review page styling
 */
+.box1 h5, .box2 h5, .box3 h5, .box4 h5, .box5 h5, .box6 h5{
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  font-size: 12px;
+}
+ h5:hover{
+  color:rgb(11, 38, 92) ;
+  font-size: 15px;
+}
 .r1{
   margin:50px 0 200px 0;
 }
@@ -25,10 +33,12 @@
   right: 10%;
   padding-top: 10%;
   color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
 }
 .box1:hover{
   box-shadow: 0 0 10px 2px grey;
+  color: #FFD43B;
 }
 .r2{
   margin:50px 0 200px 0;
@@ -55,12 +65,13 @@ top: 90px;
   left: 10%;
   padding-top: 10%;
   color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
 }
 .box2:hover{
   box-shadow: 0 0 10px 2px grey;
+  color: #FFD43B;
 }
-
 .bg3{
   
   background-image: url("./../images/g3.jpg");
@@ -83,10 +94,12 @@ top: 90px;
   right: 10%;
   padding-top: 10%;
   color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
 }
 .box3:hover{
   box-shadow: 0 0 10px 2px grey;
+  color: #FFD43B;
 }
 .bg4{
   
@@ -110,10 +123,12 @@ top: 90px;
   left: 10%;
   padding-top: 10%;
   color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
 }
 .box4:hover{
   box-shadow: 0 0 10px 2px grey;
+  color: #FFD43B;
 }
 .bg5{
   
@@ -137,10 +152,12 @@ top: 90px;
   right: 10%;
   padding-top: 10%;
   color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
 }
 .box5:hover{
   box-shadow: 0 0 10px 2px grey;
+  color: #FFD43B;
 }
 .bg6{
   
@@ -164,10 +181,12 @@ top: 90px;
   left: 10%;
   padding-top: 10%;
   color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
 }
 .box6:hover{
   box-shadow: 0 0 10px 2px grey;
+  color: #FFD43B;
 }
   h1{
     color:rgb(11, 38, 92) ;
@@ -194,17 +213,14 @@ top: 90px;
   margin-top: 30px;
 }
 h5 {
-  font-size: 13px;
-  font-weight: 300;
-  margin-top: 5px;
   color: white;
-  padding:0 0;
+  
 }
 .name{
   margin: 10px;
   margin-top: -60px;
 margin-left:80px;  
-
+padding: -2px 0;
 }
 
 
@@ -221,3 +237,9 @@ margin-left:80px;
   margin:50px 0 200px 0;
 }
 
+@media screen and (max-width: 600px) {
+  .content1, .content2, .content3, .content4, .content5, .content6{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
