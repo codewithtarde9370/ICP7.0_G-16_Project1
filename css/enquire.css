@@ -89,7 +89,7 @@ form h1{
     color: rgb(5, 20, 49);
     font-size: 28px;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
     .enquiry-msg{
         display: flex;
         flex-wrap: wrap;
