@@ -26,9 +26,13 @@ body{
         font-size: 20px;
     }
 
-    .avenue-highlights, .project-highlights, .pro-details{
+     .project-highlights{
         display: flex;
         flex-wrap: wrap;
+    }
+    .avenue-highlights{
+        display: flex;
+        flex-direction: column;
     }
     
 }
@@ -80,46 +84,7 @@ a:hover{
     
 }
 
-#hometext{
-    text-align: center;
-    font-size: 160px;
-    font-weight: 600px;
-    color: white;
-   
-}
-.homepages a{
-    padding: 0 10px;
-}
 
-video{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-}
-
-@media (min-aspect-ratio:16/9) {
-    video{
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media (max-aspect-ratio:16/9) {
-    video{
-        width: 100%;
-        height: 1700px;
-        margin-bottom: 700px;
-    }
-    #hometext{
-        font-size:100px ;
-    }
-    .homepages{
-        margin-top:300px;
-    }
-}
-
-/* launch project avenue details */
 
 /* footer styling */
 .foot{

@@ -38,18 +38,7 @@ h1{
     padding-top: 30px;
 }
 
-/* .ave-text,.pro-details {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   font-size: 30px;
-   margin: 90px 0;
-} */
-/* .pro-details {
-    border: 2px solid grey;
-    flex-wrap: wrap;
-    max-width: 70%;
-    height: auto;
-   text-align:center;
-} */
+
 .avenue-highlights, .pro-details{
     display: flex;
     flex-direction: row;
@@ -96,9 +85,63 @@ border-radius: 0 20px 20px 20px;
     box-shadow: 0 0 10px 2px grey;
     
 }
+
+#hometext{
+    text-align: center;
+    font-size: 160px;
+    font-weight: 600px;
+    color: white;
+   
+}
+.homepages a{
+    padding: 0 10px;
+}
+
+video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9) {
+    video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9) {
+    video{
+        width: 100%;
+        height: 1700px;
+        margin-bottom: 700px;
+    }
+    #hometext{
+        font-size:100px ;
+    }
+    .homepages{
+        margin-top:300px;
+    }
+}
+
 .skyline{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+}
+@media screen and (max-width:768px) {
+    .skyline{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .avenue-highlights .ave-text, .pro-details{
+        text-align: center !important;
+        justify-content: center;
+        align-items: center;
+    }
 }
 .connect-us-icons{
     margin: 60px 0 -100px 0;
