@@ -136,6 +136,9 @@ video{
     width: 300px;
     
 }
+.foot .box a{
+    text-decoration: none;
+}
 .foot .container{
     display: flex;
     flex-direction: row;
