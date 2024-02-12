@@ -6,9 +6,7 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
-.contact-box1{
-    
- }
+
  .contact-box1 p{
     border: 1px solid grey;
     border-radius: 0 20px 20px 20px;
@@ -43,10 +41,9 @@ align-items: center;
 justify-content: center;
         }
     .team-card-container{
-        
+        display: flex;
         flex-direction: column;
-        max-width: 100%;
-        height: auto;
+        padding: 10px 10px;
 
     }  
     iframe{
@@ -55,13 +52,30 @@ justify-content: center;
     } 
    
     .team-card{
-        max-width: 80%;
-        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:300px;
+        height:300px;
+        
     }
-    .team-card img{
+    /* .team-card img{
         max-width: 100%;
         height: auto;
-    }
+    } */
+    .team-card img{
+        
+height: 250px;
+width: 250px;
+         border-radius: 50%;
+         object-fit:cover;
+         position: absolute;
+         top:0px;
+         
+         
+     
+      }
         
     }
     .contact-box a{
