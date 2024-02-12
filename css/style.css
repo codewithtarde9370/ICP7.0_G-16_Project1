@@ -108,8 +108,8 @@ video{
 @media (max-aspect-ratio:16/9) {
     video{
         width: 100%;
-        height: 1500px;
-        margin-bottom: 800px;
+        height: 1700px;
+        margin-bottom: 700px;
     }
 }
 
