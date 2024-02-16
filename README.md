@@ -4,11 +4,11 @@ The main goal for this project was to create a simple and clean webpage with inf
 We have created the **Flatbooking website**. All the information about flats provided by sunrise avenue is presented through this websites.
 
 The project is made using HTML and CSS.
-![Screenshot of homepage](./../images/homePage.png)
+![Screenshot of homepage](./images/homePage.png)
 
 ### How it works:
 navigate to the diferent pages through both header and footer
-![Screenshot of homepage](./../images/footer.png)
+![Screenshot of homepage](./images/footer.png)
 
 # Pages Include:
 ### 1.Home
